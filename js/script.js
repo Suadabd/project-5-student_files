@@ -137,7 +137,7 @@ gallery.addEventListener('click', (e) => {
         const address = addresss(employee.location)
         const birthday = birthdate(employee.dob)
 
-        if (checkClickedEmployee(e.path, name)) {
+        if (checkClickedEmployee(e.composedPath(), name)) {
             displayModal(picture, name, email, city, number, address, birthday)
         }
     })

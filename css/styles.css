@@ -132,6 +132,7 @@ header h1 {
 }
 
 .modal {
+    
     position: relative;
     width: 95%;
     max-width: 420px;
@@ -142,6 +143,7 @@ header h1 {
     border-radius: 0.25em;
     border: 1px solid rgba(100, 100, 100, 0.3);
     transition: .4s ease-out;
+    display: block;
 }
 
 .modal-close-btn {
